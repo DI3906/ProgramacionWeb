@@ -1,0 +1,66 @@
+*{
+	font-family: sans-serif;
+
+}
+
+#panel{
+	/*background-color: #eee;
+	width: 15%;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;*/
+}
+
+.logoTecnm{
+	
+	left: -20px;
+	position: relative;
+	top: 0%;
+}
+
+.imgLot{
+	position: relative;
+	top: -65%;
+	opacity: .5;
+	z-index: -1;
+}
+
+#sign{
+	background-color: #eee;
+	width: 30%;
+	right: 10%;
+	top: 25%;
+	position: absolute;
+	height: 40%;
+	padding: 10px;
+	border-radius: 1rem 1rem;
+	/*background: rgba(255, 255, 255, .5);*/
+}
+
+.userX{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	height: 13%;
+	top: 10%;
+}
+
+.passwordX{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	height: 15%;
+	top: 20%;
+}
+
+.login{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	top: 30%;
+}
